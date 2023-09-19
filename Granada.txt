@@ -1,0 +1,68 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+using System;
+
+class Student{
+    public string Name = "Garry Granada";
+    public string Age = "21";
+    public string School_id = "21-0133";
+    public string Subject = "OOPL";
+    public string Course = "BSIT";
+    
+}
+
+class School{
+    public string Name = "Garry Granada";
+    public string School_name = "Eastwoods Professional College of Science & Technology";
+}
+
+class Subject{
+    public string Name = "Garry Granada";
+    public string Subject_name = "OOPL";
+    public string Subject_code = "****";
+    public string Course = "BSIT";
+}
+
+class Course{
+    public string Name = "Garry Granada";
+    public string School_name = "Eastwoods Professional College of Science & Technology";
+    public string Subject_name = "OOPL";
+}
+
+class HelloWorld {
+  static void Main() {
+      
+    Console.WriteLine("Eastwoods Professional College of Science & Technology");
+    Console.WriteLine(" ");
+    Student stud1 = new Student();
+    Console.WriteLine("Name: " + stud1.Name);
+    Console.WriteLine("Age: " + stud1.Age);
+    Console.WriteLine("School_id: " + stud1.School_id);
+    Console.WriteLine("Subject: " + stud1.Subject);
+    Console.WriteLine("Course: " + stud1.Course);
+    Console.WriteLine(" ");
+    
+    School school1 = new School();
+    Console.WriteLine("Name: " + school1.Name);
+    Console.WriteLine("School_name: " + school1.School_name);
+    Console.WriteLine(" ");
+    
+    Subject sub1 = new Subject();
+    Console.WriteLine("Name: " + sub1.Name);
+    Console.WriteLine("Subject_name: " + sub1.Subject_name);
+    Console.WriteLine("Subject_code: " + sub1.Subject_code);
+    Console.WriteLine("Course: " + sub1.Course);
+    Console.WriteLine(" ");
+    
+    Course course1 = new Course();
+    Console.WriteLine("Name: " + course1.Name);
+    Console.WriteLine("School_name: " + course1.School_name);
+    Console.WriteLine("Subject_name: " + course1.Subject_name);
+  }
+}
